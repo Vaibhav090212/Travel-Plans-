@@ -357,10 +357,9 @@ html {
   margin-bottom: 0.3rem;
 }
 
-.wander-sf-val {
-  font-size: 0.95rem;
-  color: var(--ocean);
-  font-weight: 500;
+.wander-sf-val::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  cursor: pointer;
 }
 
 .wander-sf-val.placeholder {
